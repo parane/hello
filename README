@@ -1,3 +1,21 @@
-skdjskj
-xls;l
-vdfdfvdf
+interface Animal
+{
+  public String  getName();
+  isAlive();
+}
+
+class Cat extends Animal
+{
+  public String  getName()
+  {
+   return "pushu kutty";
+  }
+}
+
+class  Zoo
+{
+ public static void main(String[] arg)
+ {
+ System.out.print(new  Cat().getName());
+ }
+}
